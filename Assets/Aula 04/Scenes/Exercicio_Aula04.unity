@@ -789,7 +789,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203844586}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
@@ -841,7 +841,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -3053,7 +3053,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -6114,7 +6113,6 @@ GameObject:
   - component: {fileID: 1541607429}
   - component: {fileID: 1541607431}
   - component: {fileID: 1541607430}
-  - component: {fileID: 1541607432}
   m_Layer: 0
   m_Name: Exercicio
   m_TagString: Untagged
@@ -6184,32 +6182,6 @@ MonoBehaviour:
   rampa: {fileID: 150781873}
   plano: {fileID: 713212460}
   caixa: {fileID: 2006675591}
---- !u!114 &1541607432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541607428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07535167eb7405b48a82f614ca15143a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Rampa
-  anguloGraus: 30
-  muE: 0.35
-  muC: 0.2
-  massa: 2
-  forca: 0
-  forcaRampaAcima: 1
-  comprimentoRampa: 4
-  comprimentoPlano: 10
-  larguraPista: 2
-  espessuraPista: 0.2
-  ladoCaixa: 0.6
-  rampa: {fileID: 0}
-  plano: {fileID: 0}
-  caixa: {fileID: 0}
 --- !u!1 &1559564008
 GameObject:
   m_ObjectHideFlags: 0
